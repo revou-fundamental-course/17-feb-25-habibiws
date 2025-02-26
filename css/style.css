@@ -1,23 +1,52 @@
 /* Ini CSS External */
+/* HEADER */
+body{
+    margin: 0;
+}
 .main-header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #003092;
+    width: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+logo{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+logo > a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
 }
 .logo-company{
     height: 50px;
     width: 50px;
-    background-image: url(https://picsum.photos/200);
+    background-image: url(../assets/BP42.png);
     background-size: cover;
     border-radius: 50%;
 }
 
-nav {
+.head-nav {
     display: flex;
+    padding: 10px;
+}
+.head-nav a:hover{
+    background-color: #FFF2DB;
+    color: #003092;
+}
+main > header{
+    text-align: center;
 }
 nav > a {
     border: 1px solid;
-    color: black;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 8px;
     border-radius: 4px;
@@ -38,6 +67,16 @@ nav > a {
     border-bottom-right-radius: 4px;
     border-bottom-left-radius: 0px;
 }
+.horizontal-row{
+    border: 5px solid white;
+    border-radius: 5px;
+    width: 95%;
+}
+
+/* MAIN */
+#top{
+    margin-top: 90px;
+}
 .main-content{
     display: flex;
     gap: 24px;
@@ -46,29 +85,56 @@ nav > a {
     border: 1px solid;
     height: 400px;
     flex: 1;
-}
-#our-package-section{
-    height: 100px;
     align-content: center;
     text-align: center;
-    background-color: aliceblue;
+}
+.main-banner{
+    height: 300px;
+    background-image: url(../assets/BP42.png);
+    background-size: cover;
+    background-position: center;
+}
+.banner-img-1{
+    background-image: url(../assets/Color\ Palette.png);
+}
+.banner-img-2{
+    background-image: url(../assets/BP42.png);
+}
+.banner-img-3{
+    background-image: url(../assets/Color\ Palette.png);
 }
 .our-package-content{
     border: 1px solid;
     height: 300px;
+    align-content: center;
+    text-align: center;
 }
 
-#callus-section{
+.callus-header{
     height: 100px;
     align-content: center;
     text-align: center;
-    background-color: aliceblue;
+    background-color: #00879E;
 }
 .callus-content{
     border: 1px solid;
     height: 300px;
+    align-content: center;
+    text-align: center;
 }
-
+.our-package-header{
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: #00879E;
+}
 footer{
     text-align: center;
+}
+
+/* rsponsive design */
+@media only screen and (max-width: 480px){
+    .main-content{
+        flex-direction: column ;
+    }
 }

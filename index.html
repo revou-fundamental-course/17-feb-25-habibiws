@@ -8,25 +8,33 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body style="background-color: #FFF2DB;">
     <!-- header & navigation -->
     <header class="main-header">
 
         <!-- Logo company -->
+        <logo>
         <div class="logo-company"></div>
+        <a>Go Travel</a>
+        </logo>
 
-        <nav >
-            <a href="Home" class="no-border-radius-right">Home</a>
+        <nav class="head-nav">
+            <a href="#top" class="no-border-radius-right">Home</a>
             <a href="#our-package-section" class="no-border-radius">Our Packages</a>
             <a href="#callus-section" class="no-border-radius-left">Call Us</a>
         </nav>
+
+
+        
     </header>
 
-    <hr>
+    <!-- <div style="background-color: #003092; height: 20px; align-content: center;">
+    <hr class="horizontal-row">
+    </div> -->
 
     <!-- main content -->
     <main>
-        <header>
+        <header id="top">
             <h1>Your Trusted Travel Agent</h1>
             <h4>Your happiness is our happiness</h4>
         </header>
@@ -34,18 +42,32 @@
         <section class="main-content">
             <!-- banner autoslide -->
             <aside class="main-container">
-                <p>banner Autoslide</p>
+                <div class="main-banner banner-img-1"></div>
+                <div class="main-banner banner-img-2"></div>
+                <div class="main-banner banner-img-3"></div>
             </aside>
         
             <!-- form cp -->
             <aside class="main-container">
-                <p>Form CP</p>
+                <header><h2>Form Contact Us</h2></header>
+                
+                <!-- Form Validation -->
+                <form>
+                    <div>
+                        <label for="name-input">Name: </label>
+                        <input type="text" id="name-input" required>
+                    </div>
+                    <div>
+                        <button type="button" onclick="validateForm();">Submit</button>
+                    </div>
+                </form>
+
             </aside>
         </section>
 
         <!-- our package section -->
         <section id="our-package-section">
-            <header>
+            <header class="our-package-header">
                 <h2>Our Packages</h2>
             </header>
 
@@ -57,7 +79,7 @@
 
         <!-- callus sec -->
         <section id="callus-section">
-            <header>
+            <header class="callus-header">
                 <h2>Callus</h2>
             </header>
 
@@ -72,5 +94,8 @@
     <footer>
         <p>Made by habibi @2025</p>
     </footer>
+
+    <!-- Javasricpt -->
+    <script src="js/script.js"></script>
 </body>
 </html>
