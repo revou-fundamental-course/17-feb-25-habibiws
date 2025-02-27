@@ -9,6 +9,20 @@ function validateForm() {
     } else {
         alert('Welcome ' + nameInput.value)
     }
+
+    let emailInput = document.getElementById('email-input');
+
+    if (emailInput.value == '') {
+        alert('Email tidak boleh kosong')
+    } else {}
+
+    let locationInput = document.getElementById('loc-inter');
+
+    if (locationInput.value == 'Empty-Dest') {
+        alert('Anda  belum memilih lokasi')
+    } else {
+        alert('Lokasi yang dipilih adalah ' + locationInput.value)
+    }
 }
 
 // for index indetifier

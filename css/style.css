@@ -98,6 +98,7 @@ nav > a {
     flex-direction: column;
     flex: 2;
     margin-right: 24px;
+    margin-left: 24px;
 }
 #CU-header{
     display: flex;
@@ -107,6 +108,7 @@ nav > a {
 .banner{
     flex: 3;
     margin-left: 24px;
+    margin-right: 24px;
 }
 .main-banner{
     height: 300px;
@@ -172,6 +174,31 @@ nav > a {
     align-content: center;
     text-align: center;
     background-color: #FFAB5B;
+}
+#our-package-section > article{
+    display: flex;
+    flex-direction: column;
+}
+.packimage1{
+    flex: 1;
+    background-image: url(../assets/bali.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.packimage2{
+    background-image: url(../assets/jakarta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.packimage3{
+    background-image: url(../assets/jogja.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.packimage4{
+    background-image: url(../assets/lombok.jpg);
+    background-size: cover;
+    background-position: center;
 }
 footer{
     text-align: center;
