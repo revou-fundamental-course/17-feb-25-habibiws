@@ -87,9 +87,12 @@ nav > a {
 .main-container{
     border: 1px solid;
     height: 400px;
-    flex: 1;
+    flex: 2;
     align-content: center;
     text-align: center;
+}
+.banner{
+    flex: 3;
 }
 .main-banner{
     height: 300px;
@@ -105,6 +108,15 @@ nav > a {
 }
 .banner-img-3{
     background-image: url(../assets/Color\ Palette.png);
+}
+#formContactUs{
+    display: flex;
+    flex-direction: column;
+}
+#formContactUs > div{
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
 }
 #our-package-section > article{
     border: 1px solid;
