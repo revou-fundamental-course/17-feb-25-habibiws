@@ -29,7 +29,7 @@ logo > a{
 .logo-company{
     height: 50px;
     width: 50px;
-    background-image: url(../assets/BP42.png);
+    background-image: url(../assets/icon.png);
     background-size: cover;
     border-radius: 50%;
     
@@ -115,13 +115,16 @@ nav > a {
     background-position: center;
 }
 .banner-img-1{
-    background-image: url(../assets/Color\ Palette.png);
+    background-image: url(../assets/bali.jpg);
 }
 .banner-img-2{
-    background-image: url(../assets/BP42.png);
+    background-image: url(../assets/jakarta.jpg);
 }
 .banner-img-3{
-    background-image: url(../assets/Color\ Palette.png);
+    background-image: url(../assets/jogja.jpg);
+}
+.banner-img-4{
+    background-image: url(../assets/lombok.jpg);
 }
 #formContactUs{
     display: flex;
@@ -148,7 +151,6 @@ nav > a {
     font-size: 15px;
 }
 #our-package-section > article{
-    border: 1px solid;
     height: 300px;
     align-content: center;
     text-align: center;
@@ -161,7 +163,6 @@ nav > a {
     background-color: #FFAB5B;
 }
 #callus-section > article{
-    border: 1px solid;
     height: 300px;
     align-content: center;
     text-align: center;
