@@ -14,16 +14,6 @@ body{
     top: 0;
     width: 100%;
 }
-body > header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #003092;
-    width: 100;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
 logo{
     padding: 10px;
     display: flex;
@@ -45,11 +35,11 @@ logo > a{
     
 }
 
-body > header > nav{
+.body-header-nav{
     display: flex;
     padding: 10px;
 }
-body > header > nav a:hover{
+.body-header-nav a:hover{
     background-color: #FFF2DB;
     color: #003092;
 }
