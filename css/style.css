@@ -152,10 +152,11 @@ nav > a {
     width: 100%;
     font-size: 15px;
 }
-#our-package-section > article{
+#our-package-section > section{
     height: 300px;
     align-content: center;
     text-align: center;
+    flex: 1;
 }
 
 #callus-section > header{
@@ -175,30 +176,49 @@ nav > a {
     text-align: center;
     background-color: #FFAB5B;
 }
-#our-package-section > article{
+#our-package-section > section{
     display: flex;
+    gap: 24px;
     flex-direction: column;
+    flex: 1;
+}
+#our-package-section > section > top{
+    display: flex;
+    gap: 24px;
+    flex: 2;
+}
+#our-package-section > section > bottom{
+    display: flex;
+    gap: 24px;
+    flex: 2;
 }
 .packimage1{
     flex: 1;
     background-image: url(../assets/bali.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 .packimage2{
+    flex: 1;
     background-image: url(../assets/jakarta.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 .packimage3{
+    flex: 1;
     background-image: url(../assets/jogja.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 .packimage4{
+    flex: 1;
     background-image: url(../assets/lombok.jpg);
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 footer{
     text-align: center;
