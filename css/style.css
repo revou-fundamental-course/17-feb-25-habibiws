@@ -2,8 +2,19 @@
 /* HEADER */
 body{
     margin: 0;
+    background-color: #FFF2DB;
 }
 .main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #003092;
+    width: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+body > header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,16 +42,18 @@ logo > a{
     background-image: url(../assets/BP42.png);
     background-size: cover;
     border-radius: 50%;
+    
 }
 
-.head-nav {
+body > header > nav{
     display: flex;
     padding: 10px;
 }
-.head-nav a:hover{
+body > header > nav a:hover{
     background-color: #FFF2DB;
     color: #003092;
 }
+
 main > header{
     text-align: center;
 }
@@ -103,26 +116,26 @@ nav > a {
 .banner-img-3{
     background-image: url(../assets/Color\ Palette.png);
 }
-.our-package-content{
+#our-package-section > article{
     border: 1px solid;
     height: 300px;
     align-content: center;
     text-align: center;
 }
 
-.callus-header{
+#callus-section > header{
     height: 100px;
     align-content: center;
     text-align: center;
     background-color: #00879E;
 }
-.callus-content{
+#callus-section > article{
     border: 1px solid;
     height: 300px;
     align-content: center;
     text-align: center;
 }
-.our-package-header{
+#our-package-section > header{
     height: 100px;
     align-content: center;
     text-align: center;

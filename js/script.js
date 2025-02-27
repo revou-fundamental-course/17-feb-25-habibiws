@@ -1,6 +1,6 @@
-//ini javascript
+//ini javascript External
 
-function validateForm(nama) {
+function validateForm() {
     let nameInput = document.getElementById('name-input');
     
     // kondisi validasinya
@@ -32,11 +32,12 @@ function showBanner() {
 
     // Loop untuk hide semua
     for (let i = 0; i < banner.length; i++) {
-        banner[1].style.display = 'none';    
+        banner[i].style.display = 'none';    
     }
 
     // show banner
     banner[indexBanner].style.display = 'block';
 }
 
+// auto play
 setInterval(nextBanner, 3000);
